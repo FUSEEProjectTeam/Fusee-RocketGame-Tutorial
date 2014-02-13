@@ -24,9 +24,7 @@ namespace Examples.RocketGame.Lesson01
         {
             RC.Clear(ClearFlags.Color | ClearFlags.Depth);
 
-            var mtxCam = float4x4.LookAt(0, 200, 500, 0, 0, 0, 0, 1, 0);
-
-            RC.ModelView = mtxCam;
+            RC.ModelView = float4x4.CreateTranslation(100, 0, -300) * float4x4.LookAt(0, 200, 500, 0, 0, 0, 0, 1, 0);
             RC.SetShader(_spColor);
             RC.SetShaderParam(_colorParam, new float4(0.5f, 0.8f, 0, 1));
             RC.Render(_cubeMesh);
