@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9c12d570-205e-4856-b0e5-4bd7c3a6a587"
+  name="Engine"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="77f409fa-2c80-43f6-adb7-d5122f65cab0"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFusee.Engine"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="265acb6d-8a93-4606-8dfd-b502651c1332">
+      <profileInstance
+        Id="f7a5c827-be95-4bba-8ccc-49620b7ac04b"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="9adeb4fa-1500-4b02-87a7-300b1c3555a9"
+        name="RenderContext"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="c4605616-d027-46c1-9bf8-881a94df4927"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DRenderContext"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d85987af-a2f4-4089-9fa2-de8431314580"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e09cca2e-a87b-4067-a799-d20c35d5273e">
+                <propertyInstance
+                  Id="17a20ad4-f674-42a6-be48-4f53cc1f0d00"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a62cdbdf-c2fc-42cb-bac8-f69548954ac9">
+                <propertyInstance
+                  Id="9f848c99-96a6-4709-a764-e4241ab2a475"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="15dcb2bc-8f71-43f7-a08d-363778d76011">
+                <propertyInstance
+                  Id="f3a7359c-c513-480f-93bf-6479d7b000a2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9f89da9b-59b5-4e02-badf-6691588b04a5">
+                <propertyInstance
+                  Id="c616cc1e-0b95-44c0-a3be-15f5a9d7ff4a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="953ffe73-db62-4d1b-85ed-f02d6ad9a8dc">
+                <propertyInstance
+                  Id="02dcafb4-76dc-422d-8046-3e5362242961"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="75d9a4e1-4d7d-4d75-81b3-ed045ecac82a"
+        name="Mesh"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="5ac0bb7a-7f4b-4fb1-b63a-3d4ca5d14c06"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DMesh"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="446e0935-2a85-4d34-becf-b79d8faf0127"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e964b690-f104-4eb3-a19d-f93da7fecb83">
+                <propertyInstance
+                  Id="6540110e-b811-45d4-8aa1-31939cf9a0b0"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="980a19ad-19a5-40a8-a7ab-1e3a1bb9e5c9">
+                <propertyInstance
+                  Id="ff94bf52-ed3a-4fc7-9b98-5cf90e83ac5c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0beb2062-28e1-471e-b465-e72322fccb1c">
+                <propertyInstance
+                  Id="44c4c002-d112-44b5-bd07-e3ebf41fc227"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f4e64160-353f-4d76-a84b-7a89dba7c82a">
+                <propertyInstance
+                  Id="222af6e1-acc0-4a58-a8dd-0bc5242ff38f"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b8e37558-f17b-4fb8-8eb6-7ecbdc5f731e">
+                <propertyInstance
+                  Id="b6e3553a-d27f-41c9-b24f-4ad1b260305c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5fcc0a65-b3c3-4685-a320-73b56f288bef"
+        name="ShaderEffect"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bf5c957a-c393-4a41-91e3-f54068df5d85"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DShaderEffect"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5d2153d3-782d-471a-83a5-17fe63e20ce7"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b21b840c-5378-4862-af88-a12eaa4a0fd5">
+                <propertyInstance
+                  Id="a5a8529e-f2cc-4ae4-b6de-524bca0e7b2c"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d007bb5-1a0a-4c0d-9689-2063c6ab68c5">
+                <propertyInstance
+                  Id="87a40abc-ca1c-4749-a1db-db25e8267424"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="94551286-617e-481b-b9b5-2caf9b4ac305">
+                <propertyInstance
+                  Id="3b71ccc9-0915-44d8-88e2-4da9802847ce"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3432c9ee-db1e-4e5e-842d-aef95ec71999">
+                <propertyInstance
+                  Id="258ae81c-9086-4e84-9379-22993ba1729a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fccddef7-03f9-4d1d-bd6e-b18aba40b2c0">
+                <propertyInstance
+                  Id="a1e6945f-c13d-498f-b5be-26978932d4ac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="bc566907-afec-4033-939a-ea21f270325d"
+        name="ITexture"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6477f272-5388-46fe-9d9a-508a962c715e"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Common.dll Namespace%3DFusee.Engine Type%3DITexture"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0f0deb5c-06cf-4fba-b13b-f6aff41687f1"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="438f8038-5dcb-422d-a7db-4842a13babd1">
+                <propertyInstance
+                  Id="cd6c5021-bf2a-4938-9e6e-fcd65f805b1f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8e265fe4-a8e3-4d9b-b640-effed1f78c7f">
+                <propertyInstance
+                  Id="62355f60-e0fc-4f4b-b316-f4b4154580af"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aef6875b-b669-4e8a-899c-9cd30bacffa1">
+                <propertyInstance
+                  Id="94f8d94f-a6e6-4c15-9283-9f168bbac5b8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccd09bf8-c017-45ea-95c1-6d2685804846">
+                <propertyInstance
+                  Id="500a127d-8fa3-4181-832e-da59d0e2df36"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8814a7e8-eac7-4b62-97a7-48116234317c"
+        name="RenderCanvas"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4c7d45fc-1a8b-4dbe-816a-d3e99970d2f4"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DRenderCanvas"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="881f0135-3e27-4536-ae1a-9c440f0df789"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3e7cd1e2-339a-4bb2-9074-0952921263dc">
+                <propertyInstance
+                  Id="6582924e-4d06-4198-bdd0-ac37cfed0522"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fff22f6b-fe56-4da6-8a3b-a7917f6ca3b0">
+                <propertyInstance
+                  Id="02a56d1c-3ed0-4846-b790-656a958b323c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b0361e1b-98f9-423d-8262-9ef13d2c69c7">
+                <propertyInstance
+                  Id="e1474dd3-2a7f-4fbb-9fcf-1bbd4924ad85"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="23c5f2ff-8945-4d1f-9132-13bf8dd4c418">
+                <propertyInstance
+                  Id="3f0c9c1c-a396-4bd5-8184-0d9758b77eaf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="126201ec-7244-40ab-830d-b95965736e16">
+                <propertyInstance
+                  Id="7be51184-2d25-4ac4-9d07-7d0d364f75ca"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7532325b-ab95-4d33-b302-b23fc63e41f2"
+        name="GUIButton"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e69284ad-4845-4f02-81c9-659368a04167"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DGUIButton"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7da42fb8-d638-4e0e-b1e4-95a5f699d640"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f07ca698-68c4-41ad-a7e2-2788c8c75384">
+                <propertyInstance
+                  Id="7c25f7b3-c225-4058-81c8-40a70debf6d2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ccda15c5-8fa9-417f-990d-52d59c93a0b8">
+                <propertyInstance
+                  Id="e0d90df2-54eb-4e87-9b98-38f288f4f8e5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8fc8613-ff84-4bae-b8a3-666a4bd5fa6f">
+                <propertyInstance
+                  Id="48547fd8-a4d4-4784-8f2f-81f89f89e0c2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3163c84e-1a33-47af-9efd-a2492be2f0bd">
+                <propertyInstance
+                  Id="ee23a1a6-9994-45d8-b840-f3bcb9ee7b93"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="79f016e7-5bb2-4648-b809-d0d52ddc5d2d">
+                <propertyInstance
+                  Id="dc6aec01-401f-4c70-b249-13b2bdeb9e7c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="9316617c-198a-410c-9ca8-fcdb2775ca6e"
+        name="MouseEventArgs"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="10b38086-96c6-4e69-aeec-2517a3052da0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Common.dll Namespace%3DFusee.Engine Type%3DMouseEventArgs"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="db048dd3-fc5f-4e8b-aa6b-db5890ecc09e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ba11a43a-aed3-4571-b5b0-dce06890a7e6">
+                <propertyInstance
+                  Id="041f12a3-6a8e-476a-aef6-82549cc85848"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="32e461ac-3f91-4c1c-b7eb-dde0af4e0e8b">
+                <propertyInstance
+                  Id="ee7a9971-e16f-4ca2-8d5b-4e6ea8696e6c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c825a53e-7a85-449a-b5fc-21361a5d80f3">
+                <propertyInstance
+                  Id="5116533f-4442-4315-bc3c-3d839d8ea5f4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ff224ea7-e60e-4a25-87b9-24b7e1c9e081">
+                <propertyInstance
+                  Id="7329b4d4-f41b-44e9-80ad-487be11a412c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6732b7d8-f69e-473f-a137-49a84cfeab16">
+                <propertyInstance
+                  Id="2fbc740b-e8f9-4a97-aeea-3ee72ace6972"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ec6a304d-25c4-4ea6-af57-b9f52bf6bba4"
+        name="GUIHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="047c44bd-38aa-477d-850e-a76b79354c65"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DGUIHandler"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f93b57e6-9ecd-49cb-8d61-378b40beea23"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0e0db0e3-cb54-44a6-b58f-97ed1d6f3d11">
+                <propertyInstance
+                  Id="86e5a1c4-570a-48a0-8a46-8b5993cb542f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9c863683-422e-492e-8898-80c475added8">
+                <propertyInstance
+                  Id="1642674a-a7e9-4f0e-b109-0bdbec51ce64"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4fd61567-4340-435e-8bf0-76b823ef6ee5">
+                <propertyInstance
+                  Id="99dfac70-d3e1-47c7-8ec1-742b45143931"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17ab0950-9087-49a4-826b-e19b7809c009">
+                <propertyInstance
+                  Id="8956e6c4-1175-4054-9ad4-bc373cd5f90d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="071d0f27-930c-492f-b638-32370d6be36c">
+                <propertyInstance
+                  Id="5fbf5854-22f1-476a-9986-4f80dd742da8"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d8c531cf-74f1-44aa-823c-2398b37fba47"
+        name="GUIText"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="ecd31174-b1a9-4347-8fec-42ab00f3f1df"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DGUIText"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="c7d24a53-26d5-48e9-88bb-c50dd4395bbc"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fad06382-bedb-410c-ab90-b44d4a010ca6">
+                <propertyInstance
+                  Id="5cf435dd-abab-4ba8-a3f8-dad3e51caea8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1610046a-ca37-42c0-9895-b5325779e6a4">
+                <propertyInstance
+                  Id="77c6e7bc-606a-415c-8556-3a691783da2e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db3de962-3348-445e-87ec-8316998652ca">
+                <propertyInstance
+                  Id="264a2d0b-5874-478f-b7fd-f3cea218ce46"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1146f3ed-3753-4c3b-a4a5-e655f2d7f4e2">
+                <propertyInstance
+                  Id="8f44b633-348d-484b-8b32-21e0d044bf56"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="99ad8596-e8d5-40f9-844f-76b0b2e8098b">
+                <propertyInstance
+                  Id="20b7dbeb-be7f-4995-98e1-f484f3a9b852"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="6ac76154-c212-44ba-86b0-68c1b32db8ca"
+        name="IFont"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="a3b44796-a50f-411d-a1bc-c77adf7edef9"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Common.dll Namespace%3DFusee.Engine Type%3DIFont"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="48f145ac-15fe-485b-8e04-20fdb027583e"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d666da91-a1a6-4389-9d74-21821da183db">
+                <propertyInstance
+                  Id="f192a698-a8e6-47a2-995f-12799a820c5a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b22c2b7e-3f97-4531-bca1-ab0e8ab8f626">
+                <propertyInstance
+                  Id="e5674ea0-d48f-4b55-9002-b25efd95b04e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="20f7214d-2276-4ca7-bf33-a9b109d79db3">
+                <propertyInstance
+                  Id="4104d3c1-b036-4db4-8cb8-aa544d1921d4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="939ebe7d-b143-4cb4-9076-529dc7ae8c5a">
+                <propertyInstance
+                  Id="54438ea5-b06d-48e7-9305-c109c9f6f777"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e7dad5c9-01db-4749-9a18-4e1eca8697f9"
+        name="GUIPanel"
+        isAbstract="false"
+        isLeaf="true"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="7dba9d4f-f741-4db6-891d-d30b0d21c4d8"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Engine.Core.dll Namespace%3DFusee.Engine Type%3DGUIPanel"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0766d03f-7021-4085-b4b9-797b70bfe17d"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="587e2cad-28b2-4d6f-aadd-82fd13ea5aef">
+                <propertyInstance
+                  Id="e7eea12c-1fff-49b1-bb39-f9ef859cb71d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="824f11ea-6168-4a2e-8be6-1491c8ec3696">
+                <propertyInstance
+                  Id="2613db2e-c918-4bd2-85b0-8b980993010b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="69af2287-b998-4756-aa9f-dfa509e30b08">
+                <propertyInstance
+                  Id="9e1ec06c-6766-4fea-a7e2-104c4979648e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6f494a3-43d2-4a74-86de-0c7f4507274a">
+                <propertyInstance
+                  Id="41cc835f-5489-45ea-9896-f9ec292533f4"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b5b02bac-9350-4a81-9750-72adf307319d">
+                <propertyInstance
+                  Id="8f866c62-477b-4cbe-83c3-047718adfc1d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

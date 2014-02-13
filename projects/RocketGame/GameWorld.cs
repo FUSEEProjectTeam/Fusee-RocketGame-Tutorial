@@ -106,7 +106,7 @@ namespace Examples.RocketGame
             get { return _maxScore; }
         }
 
-        public void Render()
+        public void RenderAFrame()
         {
             if (_currentGameState != _lastGameState)
             {

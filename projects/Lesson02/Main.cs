@@ -1,13 +1,15 @@
 using Fusee.Engine;
 using Fusee.Math;
 
-namespace Examples.RocketGame.Lesson01
+namespace Examples.RocketGame.Lesson02
 {
     public class RocketGame : RenderCanvas
     {
         private Mesh _cubeMesh;
         private ShaderProgram _spColor;
         private IShaderParam _colorParam;
+
+        private float _cubeXPos, _cubeYPos, _cubeXRot, _cubeYRot;
 
         // is called on startup
         public override void Init()
@@ -24,9 +26,30 @@ namespace Examples.RocketGame.Lesson01
         {
             RC.Clear(ClearFlags.Color | ClearFlags.Depth);
 
-            RC.ModelView = float4x4.LookAt(0, 200, 500, 0, 0, 0, 0, 1, 0);
+            _cubeYRot += Input.Instance.GetAxis(InputAxis.MouseX);
+            _cubeXRot -= Input.Instance.GetAxis(InputAxis.MouseY);
+
+            if (Input.Instance.IsKey(KeyCodes.Right))
+                _cubeXPos += 1;
+            if (Input.Instance.IsKey(KeyCodes.Left))
+                _cubeXPos -= 1;
+            if (Input.Instance.IsKey(KeyCodes.Up))
+                _cubeYPos += 1;
+            if (Input.Instance.IsKey(KeyCodes.Down))
+                _cubeYPos -= 1;
+
+            var mtxRot = float4x4.CreateRotationY(_cubeYRot) * float4x4.CreateRotationX(_cubeXRot);
+            var mtxPos = float4x4.CreateTranslation(_cubeXPos, _cubeYPos, 0);
+            var mtxCam = float4x4.LookAt(0, 200, 500, 0, 0, 0, 0, 1, 0);
+
+            RC.ModelView = mtxPos * mtxRot * mtxCam;
             RC.SetShader(_spColor);
             RC.SetShaderParam(_colorParam, new float4(0.5f, 0.8f, 0, 1));
+            RC.Render(_cubeMesh);
+
+            RC.ModelView = mtxCam;
+            RC.SetShader(_spColor);
+            RC.SetShaderParam(_colorParam, new float4(0.8f, 0.5f, 0, 1));
             RC.Render(_cubeMesh);
 
             Present();

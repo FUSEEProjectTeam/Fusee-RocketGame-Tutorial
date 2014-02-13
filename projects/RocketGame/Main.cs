@@ -7,7 +7,6 @@ namespace Examples.RocketGame
     {
         protected GameWorld Room;
 
-
         public override void Init()
         {
             RC.ClearColor = new float4(1, 1, 1, 1);
@@ -17,13 +16,12 @@ namespace Examples.RocketGame
         public override void RenderAFrame()
         {
             RC.Clear(ClearFlags.Color | ClearFlags.Depth);
-            Room.Render();
+            Room.RenderAFrame();
             Present();
         }
 
         public override void Resize()
         {
-            // is called when the window is resized
             RC.Viewport(0, 0, Width, Height);
 
             var aspectRatio = Width / (float)Height;
