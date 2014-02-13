@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01", "projects\Lesson01\Lesson01.csproj", "{FFDF307D-146B-4365-B410-A05FAEE3A337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketGame", "projects\RocketGame\RocketGame.csproj", "{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson00", "projects\Lesson00\Lesson00.csproj", "{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Debug+Web|x86 = Debug+Web|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Debug|x86.ActiveCfg = Debug|x86
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Debug|x86.Build.0 = Debug|x86
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Release|x86.ActiveCfg = Release|x86
+		{FFDF307D-146B-4365-B410-A05FAEE3A337}.Release|x86.Build.0 = Release|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Debug|x86.ActiveCfg = Debug|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Debug|x86.Build.0 = Debug|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Release|x86.ActiveCfg = Release|x86
+		{174586FC-9261-4EA2-AEA0-77BAE6FCBFC6}.Release|x86.Build.0 = Release|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug|x86.ActiveCfg = Debug|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug|x86.Build.0 = Debug|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Release|x86.ActiveCfg = Release|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

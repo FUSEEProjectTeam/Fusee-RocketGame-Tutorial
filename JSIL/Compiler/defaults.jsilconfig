@@ -1,0 +1,23 @@
+﻿{
+  "OutputDirectory": "%configdirectory%",
+  "Assemblies": {
+    "Stubbed": [
+      "mscorlib,",
+      "Mono.*",
+      "FSharp.Core"
+    ],
+    "Ignored": [
+      "^System,",
+      "^System\\.(.+),",
+      "^Microsoft\\.(.+),",
+      "Accessibility,",
+      "SMDiagnostics,",
+      "JSIL.Meta,",
+      "Mono.Posix.*"
+    ]
+  },
+  "ProfileSettings": {
+    "OverwriteExistingContent": true,
+    "ContentOutputDirectory": "%outputdirectory%/Content"
+  }
+}
