@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Fusee.Engine;
 using Fusee.Math;
 
-namespace Examples.RocketGame.Lesson10
+namespace Examples.RocketGame.Lesson11
 {
     public class GameWorld
     {
@@ -41,8 +41,11 @@ namespace Examples.RocketGame.Lesson10
             _furniture[0].SetShader(new float4(1, 0, 0, 1));
             _furniture[0].SetCorrectionMatrix(float4x4.Scale(0.5f));
 
-            _furniture.Add(new GameEntity("Assets/cube.obj.model", _rc, 100, 0, -500, (float) Math.PI/4, (float) Math.PI/4));
+            _furniture.Add(new GameEntity("Assets/cube.obj.model", _rc, 100, 0, -500, (float)Math.PI / 4, (float)Math.PI / 4));
             _furniture[1].SetShader(new float4(0, 1, 0, 1), "Assets/toon_generic_5_tex.png", new float4(0, 0, 0, 1), new float2(10, 10));
+
+            _furniture.Add(new GameEntity("Assets/rocket.protobuf.model", _rc, 0, 0, -2000, (float)Math.PI / 4, (float)Math.PI / 4));
+            _furniture[2].SetShader("Assets/rocket.png", "Assets/toon_generic_5_tex.png", new float4(0, 0, 0, 1), new float2(10, 10));
 
             _targets.Add(new Target("Assets/cube.obj.model", rc, 0, 0, -1000, (float) Math.PI/4, (float) Math.PI/4, (float) Math.PI/4));
             _targets[0].SetCorrectionMatrix(float4x4.Scale(0.5f));
