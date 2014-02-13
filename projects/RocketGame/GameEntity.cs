@@ -8,14 +8,7 @@ namespace Examples.RocketGame
     public class GameEntity
     {
         protected float4x4 Position;
-        protected float3 Rotation;
-        protected float3 NRotXV;
-        protected float3 NRotYV;
-        protected float3 NRotZV;
-        protected float ScaleX = 1;
-        protected float ScaleY = 1;
-        protected float ScaleZ = 1;
-        private float _speed = 0;
+        protected float3 Scale = new float3(1, 1, 1);
         protected float4x4 CorrectionMatrix;
 
         private readonly Mesh _mesh;
@@ -56,8 +49,6 @@ namespace Examples.RocketGame
 
             CorrectionMatrix = float4x4.Identity;
 
-            UpdateNVectors();
-
             SetDiffuseShader();
         }
 
@@ -73,14 +64,6 @@ namespace Examples.RocketGame
                         float4x4.CreateTranslation(posxyz.x, posxyz.y, posxyz.z);
 
             CorrectionMatrix = float4x4.Identity;
-
-            UpdateNVectors();
-        }
-
-        public float Speed
-        {
-            get { return _speed; }
-            set { _speed = value; }
         }
 
         public float4x4 GetPosition()
@@ -100,16 +83,16 @@ namespace Examples.RocketGame
 
         public void SetScale(float scale)
         {
-            ScaleX = scale;
-            ScaleY = scale;
-            ScaleZ = scale;
+            Scale.x = scale;
+            Scale.y = scale;
+            Scale.z = scale;
         }
 
         public void SetScale(float scaleX, float scaleY, float scaleZ)
         {
-            ScaleX = scaleX;
-            ScaleY = scaleY;
-            ScaleZ = scaleZ;
+            Scale.x = scaleX;
+            Scale.y = scaleY;
+            Scale.z = scaleZ;
         }
 
         public void SetCorrectionMatrix(float4x4 corrMatrix)
@@ -149,16 +132,9 @@ namespace Examples.RocketGame
 
         public void Render(float4x4 camMatrix)
         {
-            _rc.ModelView = CorrectionMatrix * float4x4.Scale(ScaleX, ScaleY, ScaleZ) * Position * camMatrix;
+            _rc.ModelView = CorrectionMatrix * float4x4.Scale(Scale) * Position * camMatrix;
 
             _shaderEffect.RenderMesh(_mesh);
-        }
-
-        protected void UpdateNVectors()
-        {
-            NRotXV = float3.Normalize(new float3(Position.Row0));
-            NRotYV = float3.Normalize(new float3(Position.Row1));
-            NRotZV = float3.Normalize(new float3(Position.Row2));
         }
 
         protected void SetDiffuseShader()

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01", "projects\Lesson01\Lesson01.csproj", "{FFDF307D-146B-4365-B410-A05FAEE3A337}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02", "projects\Lesson02\Lesson02.csproj", "{4B9AD65E-5E37-472D-BA40-CC5923C5294F}"
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Lesson03", "projects\RocketGameUML\Lesson03.modelproj", "{B0359B0A-AB22-478A-8CFA-18ECF4D22C52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04", "projects\Lesson04\Lesson04.csproj", "{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05", "projects\Lesson05\Lesson05.csproj", "{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +105,36 @@ Global
 		{B0359B0A-AB22-478A-8CFA-18ECF4D22C52}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{B0359B0A-AB22-478A-8CFA-18ECF4D22C52}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{B0359B0A-AB22-478A-8CFA-18ECF4D22C52}.Release|x86.ActiveCfg = Release|Any CPU
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug|x86.ActiveCfg = Debug|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug|x86.Build.0 = Debug|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug+Web|Any CPU.ActiveCfg = Debug+Web|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug+Web|Mixed Platforms.ActiveCfg = Debug+Web|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug+Web|Mixed Platforms.Build.0 = Debug+Web|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Release|Any CPU.ActiveCfg = Release|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Release|x86.ActiveCfg = Release|x86
+		{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}.Release|x86.Build.0 = Release|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug|x86.ActiveCfg = Debug|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug|x86.Build.0 = Debug|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug+Web|Any CPU.ActiveCfg = Debug+Web|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug+Web|Mixed Platforms.ActiveCfg = Debug+Web|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug+Web|Mixed Platforms.Build.0 = Debug+Web|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Debug+Web|x86.Build.0 = Debug+Web|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Release|Any CPU.ActiveCfg = Release|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Release|x86.ActiveCfg = Release|x86
+		{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
