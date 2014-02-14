@@ -97,7 +97,7 @@ namespace Examples.RocketGame.Lesson07
             return (value < min) ? min : (value > max) ? max : value;
         }
 
-        protected void UpdateNRVectors()
+        private void UpdateNRVectors()
         {
             _nRotXV = float3.Normalize(new float3(Position.Row0));
             _nRotYV = float3.Normalize(new float3(Position.Row1));
