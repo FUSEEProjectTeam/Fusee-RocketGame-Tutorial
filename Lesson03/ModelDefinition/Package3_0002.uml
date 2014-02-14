@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="9891e2f5-ffa0-4e95-bffa-21228031fd30"
+  name="Math"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="76797084-3564-4232-a240-d286fb7d3b54"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFusee.Math"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="be699505-cd70-45b3-ab63-23bf91cf1ad4"
+        name="float4x4"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="fb616635-4e6a-411c-b264-d45b3165a03f"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Math.Core.dll Namespace%3DFusee.Math Type%3Dfloat4x4"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="96eeb2d2-65f0-4a82-b3c2-9b4bf768c3e6"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e4d7b86-886b-4448-a731-1eda509db88f">
+                <propertyInstance
+                  Id="0fca5f9d-d428-4c99-99ba-46bc668e44f2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2473707-0f52-4543-ace1-21b570e987d3">
+                <propertyInstance
+                  Id="f03e91b9-6c52-40a4-a25e-1ba05b0d19b6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="60fe18e2-1036-4e79-b931-e187293d833d">
+                <propertyInstance
+                  Id="c9877637-b328-4f7c-a372-5f5a68ea73c7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3653d2c7-9f83-4b1c-ba43-b1fd8fd8dbf7">
+                <propertyInstance
+                  Id="499aadb8-2af2-4663-8627-3f3f9b2d51ac"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="71edc8df-6299-4b54-bc77-cde055d6268a"
+        name="float3"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="eebdccde-1d17-431b-994b-bf88aa020273"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Math.Core.dll Namespace%3DFusee.Math Type%3Dfloat3"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="654a850c-57c9-4243-85c4-bd14e3e4f7c8"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c03c6171-014f-4d4e-acc9-fc56610c5edc">
+                <propertyInstance
+                  Id="4d50fe07-7df0-4424-a44d-65c165930ff5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="76005b4e-fa03-4773-ba73-2163065ad0bc">
+                <propertyInstance
+                  Id="0c9cad44-7d08-4638-9b01-ae2091ea3d31"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6e354e5e-3fea-4342-9440-d4268b5de488">
+                <propertyInstance
+                  Id="07bcb23d-8b42-4014-a525-5e8e97a66977"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="54100869-21f1-44de-834d-111e63a59f12">
+                <propertyInstance
+                  Id="ee73490b-251c-4b20-8623-7a9ffa48a5b7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6b134d81-f608-4ac9-8b78-82a46b144e24"
+        name="float4"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="8f14c285-452d-4c4c-aa4b-21e8acdda32c"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Math.Core.dll Namespace%3DFusee.Math Type%3Dfloat4"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4c725a63-ce5d-4311-974b-a4218546be58"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="537c3df1-6a09-48cb-b07e-36c3fe0373c0">
+                <propertyInstance
+                  Id="f64e7aa2-3e5f-4178-94bd-04fb5e87779d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bf3403bc-4ca5-426f-bda1-e03c5f6eb4bc">
+                <propertyInstance
+                  Id="4ac94bc6-e78c-477b-95da-8e52b5c8e27a"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9e79c1d1-ee3d-41ed-9465-1e24db99a8c5">
+                <propertyInstance
+                  Id="6fa4f15d-9821-47b0-aea0-7bdb0acacff8"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4ef141a1-099b-468e-9b46-e4ae80862cc4">
+                <propertyInstance
+                  Id="37685e16-63f2-4894-976e-5d5a90639739"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="36059e07-a5b8-4294-a037-ea7b243e179c"
+        name="float2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9125a4f7-9c57-49af-935a-335dd770aa1f"
+            handle="viewcode://./CodeSchema_Struct?Assembly%3Dfile:%2F%2F%2FD:%2FDataX%2FGitHub%2FFusee-RocketGame-Tutorial%2Flib%2FFusee.Math.Core.dll Namespace%3DFusee.Math Type%3Dfloat2"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="84f7c77c-e8e4-4c45-8291-04073820dd6e"
+            name="struct"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="17b8e521-ced3-4156-9360-ff6080e1c3d1">
+                <propertyInstance
+                  Id="f25eaf40-223a-4752-92ab-dc60429789c5"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70d18cf5-9a9b-4764-9cfa-0d73a6d3743e">
+                <propertyInstance
+                  Id="84ebc329-05d2-4cd9-8f15-53690f5d2883"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="08266b13-dcff-4f47-9ca7-2559e8fb85d8">
+                <propertyInstance
+                  Id="8be2a5a2-8960-4bf7-84db-3ff633d8656a"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a86c6559-a128-443b-a406-1645c25fc4d6">
+                <propertyInstance
+                  Id="10ef5627-f399-4f60-8f4b-b828cad3de99"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

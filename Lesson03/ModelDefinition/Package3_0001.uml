@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="02a47a3f-00c7-489a-93de-040a6f06a31a"
+  name="Fusee"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0637d181-461d-41ad-abe2-e600978e021a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFusee"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3426f5f1-a4f9-4ab0-8d49-aff53d7c44df"
+        LastKnownName="Engine"
+        LastKnownLocation="Package4_0001.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="9891e2f5-ffa0-4e95-bffa-21228031fd30"
+        LastKnownName="Math"
+        LastKnownLocation="Package3_0002.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
