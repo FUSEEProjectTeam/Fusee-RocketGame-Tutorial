@@ -80,8 +80,8 @@ Global
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug|x86.ActiveCfg = Debug|x86
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug|x86.Build.0 = Debug|x86
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|Any CPU.ActiveCfg = Debug+Web|x86
-		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|Mixed Platforms.ActiveCfg = Debug+Web|x86
-		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|Mixed Platforms.Build.0 = Debug+Web|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|Mixed Platforms.ActiveCfg = Debug|x86
+		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|Mixed Platforms.Build.0 = Debug|x86
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|x86.ActiveCfg = Debug+Web|x86
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Debug+Web|x86.Build.0 = Debug+Web|x86
 		{3388E9A9-1D3B-4AD8-8BFC-6D8836955328}.Release|Any CPU.ActiveCfg = Release|x86
