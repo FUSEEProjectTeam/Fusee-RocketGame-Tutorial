@@ -3,7 +3,7 @@ using Fusee.Math;
 
 namespace Examples.RocketGame.Lesson02
 {
-    public class RocketGame : RenderCanvas
+    public class Lesson02 : RenderCanvas
     {
         private Mesh _cubeMesh;
         private ShaderProgram _spColor;
@@ -66,7 +66,7 @@ namespace Examples.RocketGame.Lesson02
 
         public static void Main()
         {
-            var app = new RocketGame();
+            var app = new Lesson02();
             app.Run();
         }
 

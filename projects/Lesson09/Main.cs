@@ -3,7 +3,7 @@ using Fusee.Math;
 
 namespace Examples.RocketGame.Lesson09
 {
-    public class RocketGame : RenderCanvas
+    public class Lesson09 : RenderCanvas
     {
         private GameWorld _gameWorld;
 
@@ -38,7 +38,7 @@ namespace Examples.RocketGame.Lesson09
 
         public static void Main()
         {
-            var app = new RocketGame();
+            var app = new Lesson09();
             app.Run();
         }
 
