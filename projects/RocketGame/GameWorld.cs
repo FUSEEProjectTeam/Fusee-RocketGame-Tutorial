@@ -118,7 +118,7 @@ namespace Examples.RocketGame
 
                     case (int) GameState.Running:
                         _gui.ShowPlayGUI();
-                        _player.SetPosition(float4x4.Identity*float4x4.CreateTranslation(0, 400, 0));
+                        _player.SetPosition(float4x4.CreateTranslation(0, 400, 0));
                         break;
 
                     case (int) GameState.GameOver:
