@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson00", "projects\Lesson
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02", "projects\Lesson02\Lesson02.csproj", "{4B9AD65E-5E37-472D-BA40-CC5923C5294F}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Lesson03", "projects\Lesson03\Lesson03.modelproj", "{7C09660D-9F9A-4D8A-A9BA-06FE3BBAA850}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson04", "projects\Lesson04\Lesson04.csproj", "{2BB2D52D-FA52-4AA6-A741-68AE791A8E73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson05", "projects\Lesson05\Lesson05.csproj", "{D76CEE15-332A-4F4B-B04C-78E4A5343DA4}"
@@ -26,8 +28,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson11", "projects\Lesson11\Lesson11.csproj", "{5356B535-7FED-4E00-B718-127EB1293753}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson12", "projects\Lesson12\Lesson12.csproj", "{49A5B56E-52BD-46BF-A320-D34021534730}"
-EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "Lesson03", "Lesson03\Lesson03.modelproj", "{7C09660D-9F9A-4D8A-A9BA-06FE3BBAA850}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
